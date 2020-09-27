@@ -3,6 +3,12 @@ import { render } from 'react-dom';
 
 class App extends React.Component {
 
+  state = {
+    status: "off",
+    time: 0,
+    timer: null, 
+  }
+
   render() {
     return (
       <div>
